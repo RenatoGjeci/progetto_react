@@ -1,0 +1,22 @@
+footer {
+    
+    background-color:rgb(87, 87, 96);
+    width: 100%;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.logo_social{
+    width: 30px;
+}
+
+.icon_social{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
