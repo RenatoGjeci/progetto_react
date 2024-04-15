@@ -24,6 +24,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <p>&copy; 2024 horologium.com</p>
     </footer>
   )
 }

@@ -1,41 +1,48 @@
 .logo{
     width: 100px;
+    border-radius: 50%;
 }
 
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: #1b2430;
+    justify-content: left;
+    background: #2C5150;
     padding: 20px 80px;
     box-shadow: 0 5px 15px  black;
+    gap: 700px;
 }
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-right: 490px;
+    
 }
 li{
     list-style: none;
     padding: 0 20px;
     position: relative;
 }
-a{
+.Link{
     text-decoration: none;
     font-size: 23px;
     font-weight: 600;
-    color:white;
+    color: white;
 }
-header li a:hover{
-    color: aqua;
+header li .Link:hover{
+    color: black;
 }
-header li a:hover::after{
+header li .Link:hover::after{
     content: "";
     width: 40%;
     height: 2px;
-    background: #42d1f5;
+    background: black;
     position: absolute;
     left: 20px;
     bottom: -5px;
+}
+.title{
+    justify-content: left;
+    display: flex;
+    align-items: left;
+   
 }

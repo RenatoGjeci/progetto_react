@@ -1,11 +1,12 @@
 footer {
-    
-    background-color:rgb(87, 87, 96);
+    background-color:#2C5150;
     width: 100%;
-    padding: 20px 0px;
+    padding: 30px 0px;
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .logo_social{
     width: 30px;
@@ -19,4 +20,7 @@ footer {
     margin: 10px;
     flex-wrap: wrap;
 }
-
+p{
+    padding-left: 40px;
+    color: white;
+}
